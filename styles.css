@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.main .header {
+  display: flex;
+  gap: 50px;
+}
+.main .header .imghead {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+.main .header a{
+ text-decoration: none;
+ color: black;
+ font-size: 25px;
+ padding-top: 20px;
+}
+.login{
+  font-size: 25px;
+  border-radius: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  border-color: rgb(99, 112, 236);
+  background-color: white;
+
+}
+.login:hover{
+  background-color: rgb(124, 124, 207);
+}
+.select{
+  width: 20px;
+}
+.hero{
+  margin-top: 10px;
+  background-color: #264672;
+  padding: 2% 10% 5% 15%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero .matter{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+}
+
+.hero .matter h1 pre{
+  font-size: 50px;
+}
+
+.hero .matter h3{
+  font-size: 23px;
+}
+
+.main_matter button{
+  margin-top: 1.5%;
+  padding: 10px 35px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  background-color: #11ee92;
+  color: black;
+  cursor: pointer;
+}
+
+.languages .language p:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.languages_available{
+  margin-top: 3.6%;
+  margin-bottom: 3.6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.languages_available .languages{
+  margin-top: 3.5%;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.languages_available .languages img{
+  width: 70px;
+  cursor: pointer;
+}
+
+.languages_available .languages .language{
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.languages_available .languages .language p{
+  font-weight: bold;
+}
+
+.learns{
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.learns h1{
+  margin-left: 15%;
+  font-size: 40px;
+}
+
+.learn{
+  margin: 3%;
+  display: flex;
+  gap: 20px;
+}
+
+.learn .image{
+  width: 50%;
+  cursor: pointer;
+}
+
+.learn .matter1{
+  margin-top: 7%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.learn .matter1 p{
+  color: grey;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.learn .matter1 h2{
+  font-size: 36px;
+}
+
+.learn .matter1 pre{
+  font-size: 19px;
+}
+.learn2{
+  margin-top: 3.6%;
+  margin-bottom: 3.6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.learn2 h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.learn2 a{
+  text-decoration: none;
+  color: blue;
+  font-size: 25px;
+}
+.learn2 a:hover{
+  text-decoration: underline;
+}
+.brands1{
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.brands1 .brands img{
+  width: 150px;
+  margin-right: 50px;
+}
+.display_extra{
+  background-color: rgb(170, 170, 221);
+  padding: 10px;
+}
+.display_extra .dis{
+  padding-left: 30px;
+}
+.lang1{
+  display: flex;
+  justify-content: space-around;
+}
+.lan h4{
+  margin: 10px 0px 10px 0px;
+}
+.lan h4:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
